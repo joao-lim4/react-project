@@ -6,10 +6,30 @@
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "markdown-to-jsx": "^7.1.2",
+    "marked": "^2.0.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-ionicons": "^4.2.0",
+    "react-markdown": "^6.0.1",
     "react-scripts": "4.0.3",
+    "react-syntax-highlighter": "^15.4.3",
+    "rehype-raw": "^5.1.0",
+    "rehype-sanitize": "^4.0.0",
+    "remark-autolink-headings": "^6.0.1",
+    "remark-behead": "^2.3.3",
+    "remark-breaks": "^2.0.2",
+    "remark-code-blocks": "^2.0.1",
+    "remark-code-extra": "^1.0.1",
+    "remark-external-links": "^8.0.0",
+    "remark-gfm": "^1.0.0",
+    "remark-html": "^13.0.1",
+    "remark-html-katex": "^3.0.0",
+    "remark-images": "^2.0.0",
+    "remark-parse": "^9.0.0",
+    "remark-remove-comments": "^0.2.0",
+    "remark-stringify": "^6.0.4",
+    "remark-utf8": "^1.1.0",
     "styled-components": "^5.2.3",
     "web-vitals": "^1.0.1"
   },
@@ -36,5 +56,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@fec/remark-a11y-emoji": "^3.1.0"
   }
 }

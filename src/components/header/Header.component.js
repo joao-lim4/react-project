@@ -20,23 +20,24 @@ export default props => {
         <Container>
             <ViewName>
                 <ImageLogo src={LogoReact}/>
-                <NameProject>My-first-project</NameProject>
+                <NameProject>Markdown preview</NameProject>
             </ViewName>
             <ViewRedes>
                 <LogoInstagram 
-                    color={'#ffffff'}
+                    color={'#494949'}
                     height="20px"
+                    cssClasses="cursor"
                     width="20px"
                     title="Instagram icon to redirect"
                     onClick={() => redirectToUrl('https://www.instagram.com/joao_lim4/')}
                 />
                 <LogoWhatsapp 
-                    color={'#ffffff'}
+                    color={'#494949'}
                     height="20px"
-                    cssClasses="margin-left"
+                    cssClasses="margin-left cursor"
                     title="Whatsapp icon to redirect"
                     width="20px"
-                    onClick={() => redirectToUrl('https://www.instagram.com/joao_lim4/')}
+                    onClick={() => redirectToUrl('https://api.whatsapp.com/send/?phone=%2B5531989013076&text=Olá%20vim%20pelo%20primeiro%20projeto%20feito%20em%20react&app_absent=0&lang=pt_br')}
                 />
                 {/* <NameUser>Lima</NameUser> */}
             </ViewRedes>

@@ -1,5 +1,22 @@
+html,body{
+    overflow-x:  hidden;
+}
 .margin-left {
     margin-left: 20px;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins.ttf');
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.preview{
+    width: 96%;
+    font-family: 'Poppins';
 }
 
 @keyframes rotate {
@@ -7,5 +24,11 @@
         transform: rotate(0deg);
     }to{
         transform: rotate(360deg);
+    }
+}
+
+@media(max-width: 596px){
+    *{
+        font-size: 14px !important;
     }
 }

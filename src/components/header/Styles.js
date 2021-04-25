@@ -6,11 +6,13 @@ export const Container = styled.div`
     position: absolute;
     left: 0;
     top: 0;
-    background-color: #1c1f25;
-    padding: 0 30px 0 30px;
+    background-color: #fafafa;
+    box-shadow: 0px 0px 5px 2px #dbdbdb;
     display: flex;
     justify-content: space-around;
     flex-direction: row;  
+    
+
 `;
 
 export const ViewName = styled.div`
@@ -26,9 +28,9 @@ export const ImageLogo = styled.img`
 `;
 
 export const NameProject = styled.span`
-    color: #ffffff;
+    color: #494949;
     font-family: 'Poppins';
-    font-size: 10px;
+    font-size: 15px;
 `;
 
 export const ViewRedes = styled.div`
@@ -38,7 +40,7 @@ export const ViewRedes = styled.div`
 `;
 
 export const NameUser = styled.span`
-    color: #ffffff;
+    color: #494949;
     font-family: 'Poppins';
     font-size: 17px;
     margin: 0 0 0 10px;
