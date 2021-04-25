@@ -53,5 +53,5 @@ Inicie o projeto usando o comando abaixo
 ## Contato
 [INSTAGRAM](https://www.instagram.com/joao_lim4/)
 <br/>
-[WHATSAPP](https://api.whatsapp.com/send/?phone=%2B5531989013076&text=Ola%20vim%20pelo%20app%20de%20m%C3%BAsica&app_absent=0&lang=pt_br)
+[WHATSAPP](https://api.whatsapp.com/send/?phone=%2B5531989013076&text=Ola%20vim%20pelo%20seu%20primeiro%20projeto%20react&app_absent=0&lang=pt_br)
 
