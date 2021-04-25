@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { FullViewMain, ViewFullScreen } from './styles/Styles'
+import HeaderComponent from './components/header/Header.component';
+import GlobalFont from './fonts/Fonts';
+import BodyImageComponent from './components/image-body/ImageBody.component';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default props => {
+    return (    
+       <FullViewMain>
+           <GlobalFont/>
+           <ViewFullScreen>
+                <HeaderComponent />
+                <BodyImageComponent />
+           </ViewFullScreen>
+       </FullViewMain>
+    );
 }
 
-export default App;
+

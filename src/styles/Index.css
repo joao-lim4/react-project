@@ -1,0 +1,11 @@
+.margin-left {
+    margin-left: 20px;
+}
+
+@keyframes rotate {
+    from{
+        transform: rotate(0deg);
+    }to{
+        transform: rotate(360deg);
+    }
+}
